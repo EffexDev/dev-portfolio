@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@plugin "tailwindcss-animate";
+
+@custom-variant dark (&:is(.dark *));
+
+* {
+  margin: 0px;
+  font-family: "Spline Sans", serif;
+}
+
+
+
+#type {
+  font-size: smaller;
+}
