@@ -18,7 +18,7 @@
 <br />
 <p>
   Things really started moving when I started working at Aussie Broadband in 2022. This allowed me to work on my development skills with Autohotkey which taught me functional programming. After a couple of years I moved over to a role at Aussie's fighter brand, Buddy Telco.
-  This allowed me to work more on mainstream programming languages and ignited my passion for web development.
+  This allowed me to work more on mainstream programming languages and ignited my passion for web development
 </p>
 
 </div
