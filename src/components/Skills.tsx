@@ -7,7 +7,7 @@ export default function Skills() {
         <BlurFade>
             <br />
             <h3 className="text-xl font-bold">Skills</h3>
-            <div className="flex">
+            <div className="flex flex-row flex-wrap">
                 <div className="pr-1">
                     <Badge className="bg-blue-600 text-white transform transition-transform hover:translate-y-[-3px]">TypeScript</Badge>
                 </div>
