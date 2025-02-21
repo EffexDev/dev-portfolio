@@ -36,7 +36,7 @@ export default function WorkExperience() {
                                     <br />
                                     <span className="text-gray-500 dark:text-white">Customer Experience</span> 
                                 </p>
-                                <p>2025</p>
+                                <p>2024-2025</p>
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
@@ -51,7 +51,7 @@ export default function WorkExperience() {
                                     <br />
                                     <span className="text-gray-500 dark:text-white">Customer Service</span> 
                                 </p>
-                                <p>2025</p>
+                                <p>2022-2024</p>
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
