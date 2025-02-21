@@ -25,8 +25,7 @@ export default function WorkExperience() {
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Yes. It adheres to the WAI-ARIA design pattern.
-                        </AccordionContent>
+                        At Effex Forge, I took the initiative to build everything from the ground up. As the founder, I designed and developed the website, managed hosting, and created detailed documentation. Additionally, I handle all marketing efforts to ensure strong brand visibility and growth, driving engagement through consistent content and strategic SEO.</AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
                         <AccordionTrigger>
@@ -41,24 +40,22 @@ export default function WorkExperience() {
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Yes. It adheres to the WAI-ARIA design pattern.
-                        </AccordionContent>
+                        As part of a tight-knit team of six, I played a key role in launching the entire customer experience framework at Buddy Telco. This included developing internal knowledge management documentation, streamlining processes, and building custom software tools to enhance efficiency and automation. My contributions helped shape a seamless experience for both customers and internal teams.</AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
                         <AccordionTrigger>
                             <Avatar img={aussie} />
                             <div className="flex justify-between w-full items-center">
                                 <p className="mr-4">
-                                    Founded Effex Forge
+                                    Aussie Broadband
                                     <br />
-                                    <span className="text-gray-500 dark:text-white">Founder</span> 
+                                    <span className="text-gray-500 dark:text-white">Customer Service</span> 
                                 </p>
                                 <p>2025</p>
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Yes. It adheres to the WAI-ARIA design pattern.
-                        </AccordionContent>
+                        At Aussie Broadband, I ensured top-tier customer service while mentoring new team members through structured training programs. I also played a key role in refining internal documentation, making it more accessible and effective for both new and existing staff. </AccordionContent>
                     </AccordionItem>
                 </Accordion>
             </div>

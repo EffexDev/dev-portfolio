@@ -19,7 +19,6 @@ function Header() {
             <br />
             <h3 className="text-xl font-bold">About</h3>
             <p id="type">In the past I have worked in production, broadcasting, UX/UI and graphic design. Building beautiful things has always been a passion of mine, so having earned a Bachelor of Design and rediscovering my love of development, I decided to start a web design company. </p>
-
         </div>
     )
 }
