@@ -4,18 +4,6 @@
 
 @plugin "tailwindcss-animate";
 
-:root {
-  --background: 0 0% 100%; /* White background */
-  --foreground: 222.2 84% 4.9%; /* Dark text */
-  --border: 214.3 31.8% 91.4%;
-  --ring: 222.2 84% 4.9%;
-}
-
-.dark {
-  --background: 222.2 84% 4.9%; /* Dark background for dark mode */
-  --foreground: 0 0% 100%; /* White text for dark mode */
-}
-
 * {
   margin: 0px;
   font-family: "Spline Sans", serif;
