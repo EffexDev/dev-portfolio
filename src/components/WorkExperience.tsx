@@ -60,6 +60,8 @@ export default function WorkExperience() {
                 </Accordion>
             </div>
         </div>
+        <br />
+        <br />
         </BlurFade>
 
     )

@@ -17,7 +17,7 @@ function DarkmodeButton() {
     };
 
     return (
-        <div className="absolute bottom-4 right-4">
+        <div className="fixed bottom-4 right-4">
             <Button onClick={toggleTheme} className="bg-gray-800 text-white dark:bg-white dark:text-black p-1 text-sm">
                 <Brightness6Icon />
             </Button>
