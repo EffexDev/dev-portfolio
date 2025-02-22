@@ -21,5 +21,6 @@ export const projectsData = [
         technologies: `Proxmox | Docker | OpnSense`,
         content: `The lab handles my router in an OpnSense VM, and also hosts a Ubuntu Server install that handles a variety of Docker containers for service monitoring and a Peppermint.sh ticketing system`,
         button: `Ongoing`,
+        url: "https://www.proxmox.com/en/"
     },
 ] 
