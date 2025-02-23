@@ -20,7 +20,7 @@ function Header() {
                     />
                 </span>
             </p>
-            <TextAnimate animation="slideLeft" by="character">
+            <TextAnimate animation="slideLeft" by="character" delay={0}>
             Specialising in performant, responsive and beautiful websites. 
             </TextAnimate>
             <div className="flex flex-row pt-2">

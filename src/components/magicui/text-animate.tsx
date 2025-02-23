@@ -149,9 +149,9 @@ const defaultItemAnimationVariants: Record<
         filter: "blur(0px)",
         y: 0,
         transition: {
-          y: { duration: 0.3 },
-          opacity: { duration: 0.4 },
-          filter: { duration: 0.3 },
+          y: { duration: 0.3, delay: delay },
+          opacity: { duration: 0.4, delay: delay },
+          filter: { duration: 0.3, delay: delay },
         },
       }),
       exit: {
@@ -175,13 +175,14 @@ const defaultItemAnimationVariants: Record<
         filter: "blur(0px)",
         y: 0,
         transition: {
-          y: { duration: 0.3 },
-          opacity: { duration: 0.4 },
-          filter: { duration: 0.3 },
+          y: { duration: 0.3, delay: delay },
+          opacity: { duration: 0.4, delay: delay },
+          filter: { duration: 0.3, delay: delay },
         },
       }),
     },
   },
+  
   slideUp: {
     container: defaultContainerVariants,
     item: {
