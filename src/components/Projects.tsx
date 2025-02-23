@@ -14,7 +14,7 @@ function Projects() {
                 <p id="type">I have built a few things, mostly driven by curiosity. Check them about here. </p>
             </div>
             
-            <div className="columns-1 sm:columns-2 gap-4">
+            <div className="columns-1 gap-4">
                 {projectsData.map(project => (
                     <ProjectCard 
                         key={project.id} 
