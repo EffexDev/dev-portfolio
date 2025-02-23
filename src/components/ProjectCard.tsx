@@ -14,7 +14,7 @@ import {
     return (
         <div className="flex-1 pb-5 w-full">
             <BlurFade delay={0.25} inView>
-                <Card className="relative overflow-hidden dark:text-white">
+                <Card className="relative overflow-hidden dark:text-white border-gray-600">
                     <CardHeader>
                         <CardTitle>{title}</CardTitle>
                         <CardDescription>

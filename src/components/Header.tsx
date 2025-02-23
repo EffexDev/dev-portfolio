@@ -1,25 +1,34 @@
 import { WordRotate } from "./magicui/word-rotate";
 import { TypingAnimation } from "./magicui/typing-animation";
+import FmdGoodOutlinedIcon from '@mui/icons-material/FmdGoodOutlined';
+import Socials from "./Socials";
+import { BorderBeam } from "./magicui/border-beam";
+import { BlurFade } from "./magicui/blur-fade";
 
 function Header() {
 
     return (
-        <div>
-            <TypingAnimation className="text-4xl font-bold">Hi, I'm Jordan ✌️</TypingAnimation>
+        <BlurFade>
+            <div className="relative border-2 border-gray-600 rounded-3xl p-10 hover:scale-101 duration-200 ease-in-out pb-5">
+            <TypingAnimation className="text-3xl sm:text-4xl font-bold">Jordan Cartledge</TypingAnimation>
             <p className="inline-flex items-baseline text-2xl text-black dark:text-white">
-            I am {"    "}
                 <span className="inline-block pl-1">
                     <WordRotate
                         className="text-2xl"
-                        words={["a designer.", "a developer.", "an enthusiast."]}
+                        words={["Designer", "Developer"]}
                     />
                 </span>
             </p>
-            <br />
-            <br />
-            <h3 className="text-xl font-bold">About</h3>
-            <p id="type">In the past I have worked in production, broadcasting, UX/UI and graphic design. Building beautiful things has always been a passion of mine, so having earned a Bachelor of Design and rediscovering my love of development, I decided to start a web design company. </p>
+            <div className="flex flex-row">
+            <FmdGoodOutlinedIcon />
+                <div className="pl-2">
+                <p>Perth, WA</p>
+                </div>
+            </div>
+            <Socials />
+            <BorderBeam duration={8} size={110} />
         </div>
+        </BlurFade>
     )
 }
 

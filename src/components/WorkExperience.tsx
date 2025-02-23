@@ -8,7 +8,8 @@ import { BlurFade } from "./magicui/blur-fade"
 export default function WorkExperience() {
     return (
         <BlurFade delay={0.25} inView>
-        <div className="pt-5">
+        <div className="pb-3">
+        <div className="relative border-2 border-gray-600 rounded-3xl p-10 hover:scale-101 duration-200 ease-in-out pb-3">
             <h3 className="text-xl font-bold">Work Experience</h3>
             <div className="max-w-1xl">
                 <Accordion type="single" collapsible>
@@ -59,9 +60,8 @@ export default function WorkExperience() {
                     </AccordionItem>
                 </Accordion>
             </div>
-        </div>
-        <br />
-        <br />
+            </div>
+            </div>
         </BlurFade>
 
     )

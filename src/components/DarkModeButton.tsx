@@ -3,11 +3,11 @@ import { Button } from "./ui/button";
 import Brightness6Icon from '@mui/icons-material/Brightness6';
 
 function DarkmodeButton() {
-    const [theme, setTheme] = useState("light");
+    const [theme, setTheme] = useState("dark");
 
     useEffect(() => {
         // Always start with light theme
-        document.documentElement.classList.remove("dark");
+        document.documentElement.classList.add("dark");
     }, []);
 
     const toggleTheme = () => {

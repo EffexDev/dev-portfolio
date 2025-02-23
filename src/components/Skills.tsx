@@ -1,39 +1,34 @@
-import { Badge } from "./badge";
 import { BlurFade } from "./magicui/blur-fade";
 
 export default function Skills() {
     return (
         <>
-        <BlurFade>
-            <br />
-            <h3 className="text-xl font-bold">Skills</h3>
-            <div className="flex flex-row flex-wrap">
-                <div className="pr-1">
-                    <Badge className="bg-blue-600 text-white transform transition-transform hover:translate-y-[-3px]">TypeScript</Badge>
-                </div>
-                <div className="pr-1">
-                    <Badge className="bg-blue-600 text-white transform transition-transform hover:translate-y-[-3px]">React.js</Badge>
-                </div>
-                <div className="pr-1">
-                    <Badge className="bg-blue-600 text-white transform transition-transform hover:translate-y-[-3px]">Tailwind</Badge>
-                </div>
-                <div className="pr-1">
-                    <Badge className="bg-red-500 text-white transform transition-transform hover:translate-y-[-3px]">Firebase</Badge>
-                </div>
-                <div className="pr-1">
-                    <Badge className="bg-orange-400 text-white transform transition-transform hover:translate-y-[-3px]">Proxmox</Badge>
-                </div>
-                <div className="pr-1">
-                    <Badge className="bg-black text-white transform transition-transform hover:translate-y-[-3px]">OpnSense</Badge>
-                </div>
-                <div className="pr-1">
-                    <Badge className="bg-black text-white transform transition-transform hover:translate-y-[-3px]">Linux</Badge>
-                </div>
-                <div className="pr-1">
-                    <Badge className="bg-green-700 text-white transform transition-transform hover:translate-y-[-3px]">AutoHotkey</Badge>
-                </div>
+        <BlurFade delay={0.25} inView>
+
+        <div className="flex flex-row justify-center flex-wrap pb-3">
+        <div className="pt-3 pr-2">
+                <div className="flex flex-row border-2 border-gray-600 rounded-3xl p-2 items-center"><p>JavaScript</p></div>
             </div>
-            <br />
+            <div className="pt-3 pr-2 flex flex-wrap">
+                <div className="flex flex-row border-2 border-gray-600 rounded-3xl p-2 items-center"><p>TypeScript</p></div>
+            </div>
+            <div className="pt-3 pr-2 flex flex-wrap">
+                <div className="flex flex-row border-2 border-gray-600 rounded-4xl p-2 items-center"><p>React.js</p></div>
+            </div>
+            <div className="pt-3 pr-2 flex flex-wrap">
+                <div className="flex flex-row border-2 border-gray-600 rounded-3xl p-2 items-center"><p>Tailwind</p></div>
+            </div>
+            <div className="pt-3 pr-2 flex flex-wrap">
+                <div className="flex flex-row border-2 border-gray-600 rounded-3xl p-2 items-center"><p>Firebase</p></div>
+            </div>
+            <div className="pt-3 pr-2 flex flex-wrap">
+                <div className="flex flex-row border-2 border-gray-600 rounded-3xl p-2 items-center"><p>Proxmox</p></div>
+            </div>
+            <div className="pt-3 pr-2 flex flex-wrap">
+                <div className="flex flex-row border-2 border-gray-600 rounded-3xl p-2 items-center"><p>opnSense</p></div>
+            </div>
+        </div>
+
         </BlurFade>
         </>
     );
